@@ -1,0 +1,13 @@
+[package]
+name = "valid-pubkeys"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+publish = false
+
+[dependencies]
+p256 = { version = "0.13", features = ["arithmetic", "expose-field"] }
+hex = "0.4"
+
+[dev-dependencies]
+anyhow = "1"
